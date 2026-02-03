@@ -70,7 +70,7 @@ export default function HeroSection() {
           </svg>
           <div className="text-left">
             <p className="text-xs font-medium text-cyan-100">Phone Number</p>
-            <p className="text-base font-bold text-white">+232 4594 3030</p>
+            <p className="text-base font-bold text-white">+(469) 472-2311</p>
           </div>
         </div>
       </nav>
@@ -83,14 +83,14 @@ export default function HeroSection() {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 rounded-full bg-cyan-500/20 px-4 py-2 backdrop-blur-sm animate-fade-in">
                 <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                <p className="text-sm font-semibold text-cyan-300 uppercase tracking-wide">Professional Tax Services</p>
+                <p className="text-sm font-semibold text-cyan-300 uppercase tracking-wide">Professional Accounting Services</p>
               </div>
               <h1 className="text-6xl font-bold leading-tight text-white lg:text-8xl animate-slide-up">
-                Simple Tax<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Solutions.</span>
+                Accounting &<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Bookkeeping</span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed max-w-2xl animate-fade-in-delay">
-                Navigate the complexities of tax season with confidence. Our expert team delivers comprehensive tax solutions tailored to your unique financial needs, ensuring maximum returns and complete peace of mind.
+                Streamline your financial operations with our comprehensive accounting and bookkeeping solutions. From daily transactions to year-end close, we handle every detail with precision and expertise.
               </p>
             </div>
 
@@ -103,8 +103,8 @@ export default function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white">Certified Experts</h3>
-                  <p className="text-sm text-gray-400">Licensed professionals with proven track records</p>
+                  <h3 className="font-semibold text-white">Full-Cycle Bookkeeping</h3>
+                  <p className="text-sm text-gray-400">Daily, weekly, and monthly financial management</p>
                 </div>
               </div>
               
@@ -115,32 +115,32 @@ export default function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white">100% Secure</h3>
-                  <p className="text-sm text-gray-400">Bank-level encryption for your data protection</p>
+                  <h3 className="font-semibold text-white">Bank Reconciliations</h3>
+                  <p className="text-sm text-gray-400">Accurate matching of all transactions</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 backdrop-blur-sm transition-all hover:bg-white/10">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-500/20">
                   <svg className="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white">Fast Processing</h3>
-                  <p className="text-sm text-gray-400">Quick turnaround for all filing requirements</p>
+                  <h3 className="font-semibold text-white">Financial Statements</h3>
+                  <p className="text-sm text-gray-400">P&L, Balance Sheet, and Cash Flow reports</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 backdrop-blur-sm transition-all hover:bg-white/10">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-500/20">
                   <svg className="h-5 w-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white">Maximum Returns</h3>
-                  <p className="text-sm text-gray-400">Strategic planning for optimal tax savings</p>
+                  <h3 className="font-semibold text-white">Payroll Management</h3>
+                  <p className="text-sm text-gray-400">Complete payroll processing and compliance</p>
                 </div>
               </div>
             </div>
@@ -149,18 +149,18 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-10 pt-8 border-t border-white/10">
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-5xl font-bold text-white">15</span>
+                  <span className="text-5xl font-bold text-white">1,200</span>
                   <span className="text-4xl text-cyan-400">+</span>
                 </div>
-                <p className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Years Experience</p>
+                <p className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Clients Served</p>
               </div>
 
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-5xl font-bold text-white">1,200</span>
+                  <span className="text-5xl font-bold text-white">5,000</span>
                   <span className="text-4xl text-cyan-400">+</span>
                 </div>
-                <p className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Tax Reports Filed</p>
+                <p className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Transactions Processed</p>
               </div>
 
               <div className="space-y-2">
@@ -179,10 +179,13 @@ export default function HeroSection() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-white">Why Choose Nexus?</h3>
                 <p className="text-lg leading-relaxed text-gray-200">
-                  With over 15 years of excellence in tax services, we've helped thousands of individuals and businesses navigate complex tax regulations while maximizing their returns. Our dedicated team of certified professionals combines deep industry expertise with personalized attention to deliver results that exceed expectations.
+                  At Nexus, we understand that managing your finances can be overwhelming. That's why we've built our practice around one simple principle: making accounting and bookkeeping accessible, accurate, and stress-free for businesses of all sizes.
                 </p>
                 <p className="text-base leading-relaxed text-gray-300">
-                  From personal income tax preparation to comprehensive business tax planning, we provide end-to-end solutions designed to save you time, reduce stress, and optimize your financial outcomes. Trust Nexus for accuracy, reliability, and unmatched service quality.
+                  Our team of certified professionals brings expertise across full-cycle bookkeeping, payroll management, and financial compliance. Whether you're catching up on previous books, managing daily transactions, or preparing critical financial statements, we handle every detail with precision and care. From AP/AR management to payroll tax filings, we provide end-to-end solutions that give you clarity, confidence, and control over your financial health.
+                </p>
+                <p className="text-base leading-relaxed text-gray-300">
+                  We don't just crunch numbers—we become your trusted financial partner, dedicated to helping your business thrive through accurate reporting, strategic insights, and unwavering support every step of the way.
                 </p>
               </div>
               
@@ -229,7 +232,7 @@ export default function HeroSection() {
       </div>
 
       {/* Trusted By Section */}
-      <div className="relative z-10 px-8 pb-12 lg:px-16">
+      {/* <div className="relative z-10 px-8 pb-12 lg:px-16">
         <div className="rounded-3xl bg-gradient-to-r from-white/95 via-white/98 to-white/95 px-12 py-10 backdrop-blur-xl shadow-2xl border border-white/50">
           <div className="text-center mb-8">
             <p className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-2">Trusted by Leading Companies</p>
@@ -262,9 +265,9 @@ export default function HeroSection() {
               <span className="text-3xl font-bold text-gray-800">zenvix</span>
             </div>
           </div>
-          <p className="text-center text-sm text-gray-600 mt-8">Join 500+ satisfied clients who trust us with their tax needs</p>
+          <p className="text-center text-sm text-gray-600 mt-8">Join 500+ satisfied clients who trust us with their accounting needs</p>
         </div>
-      </div>
+      </div> */}
 
       {/* CSS Animations */}
       <style jsx>{`
