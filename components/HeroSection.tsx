@@ -177,7 +177,6 @@ export default function HeroSection() {
           <div className="flex flex-col items-end space-y-8">
             <div className="max-w-xl space-y-8 rounded-3xl bg-gradient-to-br from-white/15 to-white/5 p-10 backdrop-blur-xl border border-white/20 shadow-2xl animate-fade-in-delay-3">
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold text-white">Why Choose Nexus?</h3>
                 <p className="text-lg leading-relaxed text-gray-200">
                   At Nexus, we understand that managing your finances can be overwhelming. That's why we've built our practice around one simple principle: making accounting and bookkeeping accessible, accurate, and stress-free for businesses of all sizes.
                 </p>
