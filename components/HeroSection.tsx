@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+ import Link from "next/link";
 
 export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -56,13 +57,37 @@ export default function HeroSection() {
           />
         </div>
 
-        <ul className="hidden items-center gap-10 text-white lg:flex">
-          <li className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">Home</li>
-          <li className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">About Us</li>
-          <li className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">Services</li>
-          <li className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">Case Studies</li>
-          <li className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">Pages</li>
-        </ul>
+       <ul className="hidden items-center gap-10 text-white lg:flex">
+  <li>
+    <Link href="/" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+      Home
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/about-us" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+      About Us
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/services" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+      Services
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/case-studies" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+      Case Studies
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/pages" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+      Pages
+    </Link>
+  </li>
+</ul>
 
         <div className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-600 px-6 py-3 shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105">
           <svg className="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">

@@ -136,7 +136,7 @@ export default function AchievementSection() {
           }`}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Stat Card 1 - Businesses Served */}
-              <div className="rounded-2xl p-8 hover:bg-white hover:bg-opacity-5 transition-all duration-300 hover:scale-105 group">
+              <div className="rounded-2xl p-8 transition-all duration-300 hover:scale-105 group">
                 <div className="mb-4">
                   <span className="text-6xl lg:text-7xl font-bold text-white inline-block">
                     {counts.businesses}
@@ -149,7 +149,7 @@ export default function AchievementSection() {
               </div>
 
               {/* Stat Card 2 - Transactions Processed */}
-              <div className="rounded-2xl p-8 hover:bg-white hover:bg-opacity-5 transition-all duration-300 hover:scale-105 group">
+              <div className="rounded-2xl p-8 transition-all duration-300 hover:scale-105 group">
                 <div className="mb-4">
                   <span className="text-6xl lg:text-7xl font-bold text-white inline-block">
                     {counts.transactions}M
@@ -162,7 +162,7 @@ export default function AchievementSection() {
               </div>
 
               {/* Stat Card 3 - Client Satisfaction */}
-              <div className="rounded-2xl p-8 hover:bg-white hover:bg-opacity-5 transition-all duration-300 hover:scale-105 group">
+              <div className="rounded-2xl p-8  transition-all duration-300 hover:scale-105 group">
                 <div className="mb-4">
                   <span className="text-6xl lg:text-7xl font-bold text-white inline-block">
                     {counts.satisfaction}
@@ -175,7 +175,7 @@ export default function AchievementSection() {
               </div>
 
               {/* Stat Card 4 - Tax Strategies */}
-              <div className="rounded-2xl p-8 hover:bg-white hover:bg-opacity-5 transition-all duration-300 hover:scale-105 group">
+              <div className="rounded-2xl p-8  transition-all duration-300 hover:scale-105 group">
                 <div className="mb-4">
                   <span className="text-6xl lg:text-7xl font-bold text-white inline-block">
                     {counts.strategies}
@@ -189,16 +189,16 @@ export default function AchievementSection() {
             </div>
 
             {/* Additional Stats Bar */}
-            <div className="mt-6 bg-white bg-opacity-5 backdrop-blur-sm rounded-2xl p-6 flex items-center justify-between hover:bg-opacity-10 transition-all duration-300">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[#26C5F3] bg-opacity-20 rounded-full flex items-center justify-center">
+            <div className="mt-6 bg-white bg-opacity-5  text-gray-600 backdrop-blur-sm rounded-2xl p-6 flex items-center justify-between hover:bg-opacity-10 transition-all duration-300">
+              <div className="flex items-center text-gray-600  gap-4">
+                <div className="w-12 h-12 bg-[#26C5F3] bg-opacity-20 text-gray-600 rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-[#26C5F3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-semibold text-base">Certified Professionals</p>
-                  <p className="text-gray-300 text-sm">With 15+ Years Experience</p>
+                  <p className="text-gray-600 font-semibold text-base">Certified Professionals</p>
+                  <p className="text-gray-500 text-sm">With 15+ Years Experience</p>
                 </div>
               </div>
               <div className="text-right">

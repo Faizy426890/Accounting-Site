@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "cdn.prod.website-files.com" },
       { protocol: "https", hostname: "rhrinternational.com" },
       { protocol: "https", hostname: "media.istockphoto.com" },
+
+      // ✅ ADD THIS
+      { protocol: "https", hostname: "res.cloudinary.com" },
     ],
   },
 };
