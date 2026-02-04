@@ -23,7 +23,6 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    /* -------------------- Email Template -------------------- */
     const emailHtml = `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background:#f9fafb; padding:20px;">
       
