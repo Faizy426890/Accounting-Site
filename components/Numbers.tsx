@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 
 export default function AchievementSection() {
@@ -99,10 +100,10 @@ export default function AchievementSection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-4 mb-8">
-              <button className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
+              <Link href="/about-us" className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
                 More About Us
                 <ArrowUpRight className="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" strokeWidth={2.5} />
-              </button>
+              </Link>
               
               <div className="flex items-center gap-3 bg-white bg-opacity-10 backdrop-blur-sm px-6 py-3 rounded-full">
                 <div className="flex -space-x-3">

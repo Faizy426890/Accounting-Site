@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { Check, ArrowRight } from 'lucide-react';
 
 export default function AccountingExpertise() {
@@ -78,10 +79,10 @@ export default function AccountingExpertise() {
                 <p className="text-lg font-normal leading-relaxed mb-6">
                   Our team is always ready to provide expert guidance & real solutions.
                 </p>
-                <button className="bg-white text-cyan-500 px-6 py-3 rounded font-semibold text-sm flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200">
+                <Link href="/contact" className="bg-white text-cyan-500 px-6 py-3 rounded font-semibold text-sm flex items-center gap-2 hover:bg-gray-100 transition-colors duration-200 w-fit">
                   Get Started Today
                   <ArrowRight className="w-4 h-4" />
-                </button>
+                </Link>
               </div>
             </div>
 

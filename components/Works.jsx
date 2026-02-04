@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
 export default function AccountingProcess() {
@@ -110,10 +111,10 @@ export default function AccountingProcess() {
                     <span className="text-gray-700">Clear pricing with no hidden fees</span>
                   </li>
                 </ul>
-                <button className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
+                <Link href="/contact" className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
                   Book Your Consultation
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               </div>
 
               {/* Image */}
@@ -179,10 +180,10 @@ export default function AccountingProcess() {
                     <span className="text-gray-700">Customized accounting roadmap</span>
                   </li>
                 </ul>
-                <button className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
+                <Link href="/services" className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
                   View Our Services
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -229,10 +230,10 @@ export default function AccountingProcess() {
                     <span className="text-gray-700">Dedicated support team always available</span>
                   </li>
                 </ul>
-                <button className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
+                <Link href="/contact" className="bg-[#26C5F3] text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-[#1fb3e0] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
                   Get Started Today
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               </div>
 
               {/* Image */}
@@ -258,10 +259,10 @@ export default function AccountingProcess() {
               Join hundreds of businesses who trust us with their financial management. 
               Get started with a free consultation today.
             </p>
-            <button className="bg-white text-[#26C5F3] px-10 py-4 rounded-full font-bold text-base hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
+            <Link href="/contact" className="bg-white text-[#26C5F3] px-10 py-4 rounded-full font-bold text-base hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2 group">
               Schedule Free Consultation
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Link>
           </div>
         </div>
       </section>

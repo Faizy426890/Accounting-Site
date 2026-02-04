@@ -89,7 +89,7 @@ const Footer = () => {
                 Services
               </Link>
             
-              <Link href="/privacy" className="block text-sm text-gray-300 hover:text-blue-400 transition-colors">
+              <Link href="/privacy" target="_blank" rel="noopener noreferrer" className="block text-sm text-gray-300 hover:text-blue-400 transition-colors">
                 Privacy Policy
               </Link>
             </nav>
@@ -144,10 +144,10 @@ const Footer = () => {
               © {new Date().getFullYear()} Nexus Accounting. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/terms" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/privacy" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Privacy
               </Link>
            

@@ -386,7 +386,7 @@ export default function HeroSection() {
               </div>
               
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 lg:gap-4">
-                <button className="group flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 px-6 lg:px-8 py-3 lg:py-4 font-bold text-white shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105 text-sm lg:text-base">
+                <Link href="/services" className="group flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 px-6 lg:px-8 py-3 lg:py-4 font-bold text-white shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105 text-sm lg:text-base">
                   Explore Services
                   <svg 
                     className="h-4 w-4 lg:h-5 lg:w-5 transition-transform group-hover:translate-x-2" 
@@ -396,9 +396,9 @@ export default function HeroSection() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </button>
+                </Link>
                 
-                <button className="group flex items-center justify-center gap-3 rounded-full bg-white/10 px-6 lg:px-8 py-3 lg:py-4 font-bold text-white backdrop-blur-sm transition-all hover:bg-white/20 text-sm lg:text-base">
+                <Link href="/contact" className="group flex items-center justify-center gap-3 rounded-full bg-white/10 px-6 lg:px-8 py-3 lg:py-4 font-bold text-white backdrop-blur-sm transition-all hover:bg-white/20 text-sm lg:text-base">
                   Contact Us
                   <svg 
                     className="h-4 w-4 lg:h-5 lg:w-5" 
@@ -408,7 +408,7 @@ export default function HeroSection() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                </button>
+                </Link>
               </div>
               
               {/* Trust Indicators */}
