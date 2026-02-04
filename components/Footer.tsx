@@ -82,7 +82,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
             
             <nav className="space-y-3">
-              <Link href="/about" className="block text-sm text-gray-300 hover:text-blue-400 transition-colors">
+              <Link href="/about-us" className="block text-sm text-gray-300 hover:text-blue-400 transition-colors">
                 About Us
               </Link>
               <Link href="/services" className="block text-sm text-gray-300 hover:text-blue-400 transition-colors">
