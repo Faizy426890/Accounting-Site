@@ -109,7 +109,7 @@ export default function HeroSection() {
 
           {/* Login Button */}
         <a
-  href="https://secure.countingworkspro.com/?cid=33748mali&logout=1"
+  href="/login"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 rounded-lg bg-blue-100 px-5 py-3  font-semibold text-black shadow-md transition-all duration-200 hover:bg-blue-100 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-100 focus:ring-offset-2"
@@ -245,7 +245,7 @@ export default function HeroSection() {
             {/* Login Button */}
             <div className="mt-6 pt-6 border-t border-white/10">
               <a
-                href="https://secure.countingworkspro.com/?cid=33748mali&logout=1"
+                href="/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-4 font-bold text-white shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105"
@@ -352,7 +352,7 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-6 lg:gap-10 pt-6 lg:pt-8 border-t border-white/10">
               <div className="space-y-1 lg:space-y-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">1,200</span>
+                  <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">100</span>
                   <span className="text-2xl sm:text-3xl lg:text-4xl text-cyan-400">+</span>
                 </div>
                 <p className="text-xs lg:text-sm font-semibold text-gray-300 uppercase tracking-wide">Clients Served</p>
@@ -360,7 +360,7 @@ export default function HeroSection() {
 
               <div className="space-y-1 lg:space-y-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">5,000</span>
+                  <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">5000</span>
                   <span className="text-2xl sm:text-3xl lg:text-4xl text-cyan-400">+</span>
                 </div>
                 <p className="text-xs lg:text-sm font-semibold text-gray-300 uppercase tracking-wide">Transactions Processed</p>
