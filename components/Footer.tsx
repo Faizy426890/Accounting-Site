@@ -70,7 +70,7 @@ const Footer = () => {
                 </svg>
                 <div className="text-sm">
                   <p>555 Republic Drive</p>
-                  <p>Suite 214</p>
+                  <p>Suite 213</p>
                   <p>Plano, TX 75074</p>
                 </div>
               </div>

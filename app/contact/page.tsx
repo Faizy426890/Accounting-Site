@@ -12,6 +12,7 @@ export default function ContactPage() {
     phone: "",
     service: "",
     message: "",
+    smsConsent: false,
   })
   
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -32,9 +33,12 @@ export default function ContactPage() {
   ]
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target
+    const checked = (e.target as HTMLInputElement).checked
+    
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: type === 'checkbox' ? checked : value
     })
   }
 
@@ -68,6 +72,7 @@ export default function ContactPage() {
           phone: "",
           service: "",
           message: "",
+          smsConsent: false,
         })
       } else {
         showToast(data.message || "Failed to send message. Please try again.", "error")
@@ -276,7 +281,7 @@ export default function ContactPage() {
                     </p>
                     <p className="text-xl sm:text-2xl font-semibold text-slate-900 leading-snug" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                       555 Republic Drive<br />
-                      Suite 214<br />
+                      Suite 213<br />
                       Plano, TX 75074
                     </p>
                   </div>
@@ -425,6 +430,26 @@ export default function ContactPage() {
                     style={{ fontFamily: "'Source Sans Pro', sans-serif" }}
                     placeholder="Tell us about your needs and how we can help..."
                   />
+                </div>
+
+                {/* SMS Consent Checkbox */}
+                <div className="bg-slate-50 rounded-xl p-4 sm:p-5 border border-slate-200">
+                  <label className="flex items-start gap-3 cursor-pointer group">
+                    <input
+                      type="checkbox"
+                      id="smsConsent"
+                      name="smsConsent"
+                      checked={formData.smsConsent}
+                      onChange={handleChange}
+                      className="mt-1 w-5 h-5 rounded border-2 border-slate-300 text-slate-900 focus:ring-4 focus:ring-slate-900/10 transition-all cursor-pointer"
+                    />
+                    <span className="text-xs sm:text-sm text-slate-600 leading-relaxed" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
+                      <span className="font-semibold text-slate-700">(Optional)</span> By checking this box, you consent to receive SMS messages from Nexus related to conversational purposes. Message frequency may vary. Message and data rates may apply. You may reply STOP at any time to opt out or HELP for assistance. View our{' '}
+                      <a href="/privacy-policy" className="text-slate-900 underline hover:text-slate-700 transition-colors">Privacy Policy</a>
+                      {' '}and{' '}
+                      <a href="/terms-conditions" className="text-slate-900 underline hover:text-slate-700 transition-colors">Terms & Conditions</a>.
+                    </span>
+                  </label>
                 </div>
 
                 {/* Submit Button */}

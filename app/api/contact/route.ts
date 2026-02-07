@@ -71,7 +71,7 @@ export async function POST(request: NextRequest) {
 
       <div style="text-align:center; margin-top:15px; font-size:12px; color:#94a3b8;">
         <p>This email was generated from your website contact form.</p>
-        <p style="margin-top:5px;">555 Republic Drive Suite 214, Plano TX 75074</p>
+        <p style="margin-top:5px;">555 Republic Drive Suite 213, Plano TX 75074</p>
         <p style="margin-top:5px;">972-744-9881 | Info@nexusacct.com</p>
       </div>
 
