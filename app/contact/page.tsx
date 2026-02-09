@@ -443,12 +443,32 @@ export default function ContactPage() {
                       onChange={handleChange}
                       className="mt-1 w-5 h-5 rounded border-2 border-slate-300 text-slate-900 focus:ring-4 focus:ring-slate-900/10 transition-all cursor-pointer"
                     />
-                    <span className="text-xs sm:text-sm text-slate-600 leading-relaxed" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
-                      <span className="font-semibold text-slate-700">(Optional)</span> By checking this box, you consent to receive SMS messages from Nexus related to conversational purposes. Message frequency may vary. Message and data rates may apply. You may reply STOP at any time to opt out or HELP for assistance. View our{' '}
-                      <a href="/privacy-policy" className="text-slate-900 underline hover:text-slate-700 transition-colors">Privacy Policy</a>
-                      {' '}and{' '}
-                      <a href="/terms-conditions" className="text-slate-900 underline hover:text-slate-700 transition-colors">Terms & Conditions</a>.
-                    </span>
+                    <span
+  className="text-xs sm:text-sm text-slate-600 leading-relaxed"
+  style={{ fontFamily: "'Source Sans Pro', sans-serif" }}
+>
+  <span className="font-semibold text-slate-700">(Optional)</span>{' '}
+  I consent to receive conversational (external) text messages from Nexus Accounting & Taxation.
+  Reply STOP to opt-out; Reply HELP for support; Message and data rates may apply;
+  Messaging frequency may vary. Visit{' '}
+  <a
+    href="https://www.nexusacct.com/privacy"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-900 underline hover:text-slate-700 transition-colors"
+  >
+    Privacy Policy
+  </a>{' '}
+  and{' '}
+  <a
+    href="https://www.nexusacct.com/terms"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-900 underline hover:text-slate-700 transition-colors"
+  >
+    Terms of Service
+  </a>.
+</span>
                   </label>
                 </div>
 
