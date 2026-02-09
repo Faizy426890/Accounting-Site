@@ -15,7 +15,7 @@ export default function TermsAndConditions() {
           {/* Header */}
           <header className="mb-12 text-center">
             <h1 className="text-4xl font-bold text-slate-900 mb-2">
-              Nexus Accounting
+              Nexus Accounting & Taxation is a brand operated by Nexus One Holdings, LLC.
             </h1>
             <div className="text-2xl font-semibold text-blue-700 mb-3">
               Terms and Conditions

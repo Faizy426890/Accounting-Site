@@ -19,7 +19,7 @@ const Footer = () => {
               priority
             />
             <p className="text-gray-300 text-sm leading-relaxed">
-              Your trusted partner for comprehensive accounting solutions and financial excellence.
+              Nexus Accounting & Taxation is a brand operated by Nexus One Holdings, LLC.
             </p>
           </div>
 

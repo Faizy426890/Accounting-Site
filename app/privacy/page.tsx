@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
 
       <div className={styles.container}>
         <header className={styles.header}>
-          <h1 className={styles.companyName}>Nexus Accounting</h1>
+          <h1 className={styles.companyName}>Nexus Accounting & Taxation is a brand operated by Nexus One Holdings, LLC.</h1>
           <div className={styles.policyTitle}>Privacy Policy</div>
           <div className={styles.effectiveDate}>Effective Date: February 5, 2026</div>
         </header>
