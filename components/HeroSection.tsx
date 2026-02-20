@@ -108,11 +108,11 @@ export default function HeroSection() {
           </div>
 
           {/* Login Button */}
-        <a
-  href="/login"
+       <a
+  href="https://taxdome.com/easy-access"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-flex items-center gap-2 rounded-lg bg-blue-100 px-5 py-3  font-semibold text-black shadow-md transition-all duration-200 hover:bg-blue-100 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-100 focus:ring-offset-2"
+  className="inline-flex items-center gap-2 rounded-lg bg-blue-100 px-5 py-3 font-semibold text-black shadow-md transition-all duration-200 hover:bg-blue-200 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
 >
   <svg
     className="h-4 w-4"
