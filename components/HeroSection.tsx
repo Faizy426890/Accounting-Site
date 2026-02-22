@@ -245,7 +245,7 @@ export default function HeroSection() {
             {/* Login Button */}
             <div className="mt-6 pt-6 border-t border-white/10">
               <a
-                href="/login"
+                href="lohttps://taxdome.com/easy-accessgin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-4 font-bold text-white shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105"
