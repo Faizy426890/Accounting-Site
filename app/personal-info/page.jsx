@@ -89,14 +89,7 @@ export default function AmanKhanBio() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex gap-4 flex-wrap">
-            <a href="#contact" className="px-8 py-3 bg-cyan-500 text-white text-xs font-semibold tracking-widest uppercase hover:bg-cyan-400 transition-colors">
-              Work Together
-            </a>
-            <a href="#expertise" className="px-7 py-3 border border-slate-300 text-slate-500 text-xs font-semibold tracking-widest uppercase hover:border-cyan-500 hover:text-cyan-500 transition-colors">
-              Explore Expertise
-            </a>
-          </div>
+         
         </div>
 
         {/* Right — trust panel */}
