@@ -3,19 +3,19 @@
 import { useEffect, useRef } from "react";
 
 const expertise = [
-  { icon: "🏢", num: "01", title: "Business Advisory", text: "Guiding entrepreneurs and established businesses through strategic decisions — from entity formation and structuring to growth planning and operational efficiency." },
-  { icon: "📊", num: "02", title: "Tax Strategy", text: "Developing comprehensive tax plans that minimize liabilities while maintaining full compliance. Expertise spanning personal, corporate, and cross-border taxation." },
-  { icon: "⚖️", num: "03", title: "Regulatory Compliance", text: "Navigating the ever-shifting regulatory landscape, ensuring businesses remain compliant while operating with confidence and clarity." },
-  { icon: "🚀", num: "04", title: "Startup Consulting", text: "Working closely with founders in the early stages — structuring cap tables, advising on funding rounds, and building financial infrastructure for sustainable growth." },
-  { icon: "📋", num: "05", title: "Financial Planning", text: "Crafting long-term financial roadmaps aligned with personal and professional goals — covering budgeting, forecasting, and wealth management strategies." },
-  { icon: "🤝", num: "06", title: "Corporate Governance", text: "Establishing robust governance frameworks that promote accountability, transparency, and ethical practices across organizations of all sizes." },
+  { icon: "🏢", num: "01", title: "Business Advisory", text: "Guiding entrepreneurs and established businesses through strategic decisions from entity formation and structuring to growth planning and operational efficiency." },
+  { icon: "📊", num: "02", title: "Tax Strategy", text: "Developing comprehensive tax plans that minimize liabilities while maintaining full compliance. Experience includes personal, corporate, and cross border taxation." },
+  { icon: "⚖️", num: "03", title: "Regulatory Compliance", text: "Helping businesses navigate the constantly changing regulatory landscape so they remain compliant and operate with confidence." },
+  { icon: "🚀", num: "04", title: "Startup Consulting", text: "Working closely with founders in the early stages, structuring cap tables, advising on funding rounds, and building financial infrastructure for sustainable growth." },
+  { icon: "📋", num: "05", title: "Financial Planning", text: "Creating long term financial roadmaps aligned with personal and professional goals, including budgeting, forecasting, and wealth management strategies." },
+  { icon: "🤝", num: "06", title: "Corporate Governance", text: "Establishing governance frameworks that promote accountability, transparency, and ethical practices across organizations of all sizes." },
 ];
 
 const values = [
-  { num: "01", name: "Integrity", desc: "Honesty and ethics underpin every recommendation and relationship I build." },
-  { num: "02", name: "Clarity", desc: "Complex ideas distilled into language everyone can confidently act on." },
-  { num: "03", name: "Precision", desc: "Details matter — especially where money and law intersect." },
-  { num: "04", name: "Growth", desc: "Every engagement is designed to move clients meaningfully forward." },
+  { num: "01", name: "Integrity", desc: "Honesty and strong ethics guide every recommendation and relationship I build." },
+  { num: "02", name: "Clarity", desc: "Complex ideas explained in a way that people can clearly understand and confidently act on." },
+  { num: "03", name: "Precision", desc: "Details matter, especially where money and law come together." },
+  { num: "04", name: "Growth", desc: "Every engagement is designed to help clients move forward in a meaningful way." },
 ];
 
 const timeline = [
@@ -26,9 +26,9 @@ const timeline = [
 ];
 
 const trustPoints = [
-  { title: "Experienced Professionals", desc: "Work with a certified consultant who understands your unique business needs and delivers tailored guidance." },
-  { title: "Accurate & Transparent", desc: "Every number matters. Clear communication, precise reporting, and full compliance — every step of the way." },
-  { title: "Tailored Solutions", desc: "From startups to corporations, strategies adapt to fit your unique goals, structure, and growth stage." },
+  { title: "Experienced Professionals", desc: "Work with a certified consultant who understands your unique business needs and provides tailored guidance." },
+  { title: "Accurate and Transparent", desc: "Every number matters. You can expect clear communication, precise reporting, and full compliance at every step." },
+  { title: "Tailored Solutions", desc: "From startups to corporations, strategies are designed to fit your unique goals, structure, and stage of growth." },
 ];
 
 const marqueeItems = ["Tax Strategy", "Business Advisory", "Compliance", "Startup Consulting", "Financial Planning", "Corporate Governance"];
@@ -64,10 +64,10 @@ export default function AmanKhanBio() {
 
         {/* Left */}
         <div>
-          {/* Tag */}
+          {/* Tag — CHANGED to Attorney at Law */}
           <div className="mb-7">
             <span className="font-mono text-xs tracking-widest text-cyan-600 bg-cyan-50 border border-cyan-200 border-l-4 border-l-cyan-500 px-3 py-1">
-              Business · Taxes · Compliance
+              Attorney at Law
             </span>
           </div>
 
@@ -80,16 +80,14 @@ export default function AmanKhanBio() {
           {/* Role */}
           <div className="mt-6 flex items-center gap-4">
             <div className="w-9 h-0.5 bg-cyan-500" />
-            <span className="text-xs tracking-widest uppercase text-slate-400 font-medium">Consultant · Advisor · Strategist</span>
-          </div>
+<span className="text-xs tracking-widest uppercase text-slate-400 font-medium">
+  Attorney at Law
+</span>          </div>
 
           {/* Para */}
           <p className="mt-5 text-base leading-relaxed text-slate-600 font-light max-w-md">
             A trusted professional helping businesses and individuals master the intersection of finance, taxation, and regulatory compliance. With extensive experience, Aman transforms complexity into confident, actionable strategy.
           </p>
-
-          {/* Buttons */}
-         
         </div>
 
         {/* Right — trust panel */}
@@ -169,41 +167,99 @@ export default function AmanKhanBio() {
 
       {/* ── Quote band ── */}
       <div ref={addRef} className="relative z-10 px-6 lg:px-16 py-28 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center bg-slate-900 overflow-hidden">
-        <p className="font-serif text-3xl lg:text-4xl font-thin italic text-slate-100 leading-snug relative z-10">
-          "Navigating business and tax law shouldn't feel like a burden. My mission is to give every client the{" "}
-          <span className="text-cyan-400">clarity and confidence</span> to make their best financial decisions — every single time."
-        </p>
+     <p className="font-serif text-3xl lg:text-4xl font-thin italic text-slate-100 leading-snug relative z-10">
+  "Navigating business and tax law should not feel like a burden. My mission is to give every client the{" "}
+  <span className="text-cyan-400">clarity and confidence</span> to make the best financial decisions every single time."
+</p>
         <div className="relative z-10">
           <p className="font-mono text-xs tracking-widest uppercase text-cyan-400 mb-6">— Aman Khan</p>
-          <p className="text-base leading-relaxed text-slate-500 font-light mb-8">
-            Ready to take control of your financial future? Let's build a strategy that works for you — not against you.
-          </p>
-         
+         <p className="text-base leading-relaxed text-slate-500 font-light mb-8">
+  Ready to take control of your financial future? Let’s build a strategy that works for you and supports your goals.
+</p>
         </div>
-      </div>    
+      </div>
 
-      {/* ── Email / Contact ── */}
-      <div ref={addRef} id="contact" className="relative z-10 px-6 lg:px-16 py-20 bg-white border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-10">
-        <div>
-          <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-3">Get In Touch</p>
-          <h2 className="font-serif text-4xl font-extralight text-slate-900">
-            Ready to work <em className="italic text-cyan-500">together?</em>
-          </h2>
-          <a
-            href="mailto:Aman@khanlegalgroup.com"
-            className="mt-6 inline-flex items-center gap-3 px-8 py-3 bg-cyan-500 text-white text-xs font-semibold tracking-widest uppercase hover:bg-cyan-400 transition-colors"
-          >
-            <svg className="w-4 h-4 stroke-white fill-none" strokeWidth="2" viewBox="0 0 24 24">
-              <rect x="2" y="4" width="20" height="16" rx="2" />
-              <polyline points="2,4 12,13 22,4" />
-            </svg>
-            Send an Email
-          </a>
+      {/* ── Contact Details Band ── NEW SECTION */}
+      <div ref={addRef} className="relative z-10 bg-slate-50 border-t border-b border-slate-200 px-6 lg:px-16 py-14">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+          {/* Office */}
+          <div className="flex flex-col gap-2">
+            <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-1">Office</p>
+            <a href="tel:+14692006508" className="text-sm text-slate-700 font-light hover:text-cyan-500 transition-colors">
+              +1 (469) 200-6508
+            </a>
+          </div>
+
+          {/* Mobile / WhatsApp */}
+          <div className="flex flex-col gap-2">
+            <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-1">Mobile · WhatsApp</p>
+            <a href="tel:+14692784687" className="text-sm text-slate-700 font-light hover:text-cyan-500 transition-colors">
+              +1 (469) 278-4687
+            </a>
+            <span className="text-xs text-slate-400 font-light">Direct / WhatsApp</span>
+          </div>
+
+          {/* Email */}
+          <div className="flex flex-col gap-2">
+            <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-1">Email</p>
+            <a href="mailto:aman@khanlegalgroup.com" className="text-sm text-slate-700 font-light hover:text-cyan-500 transition-colors break-all">
+              aman@khanlegalgroup.com
+            </a>
+          </div>
+
+          {/* Address */}
+          <div className="flex flex-col gap-2">
+            <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-1">Address</p>
+            <address className="not-italic text-sm text-slate-700 font-light leading-relaxed">
+              555 Republic Drive<br />
+              Suite 214<br />
+              Plano, Texas 75074<br />
+              <span className="text-slate-400">United States of America</span>
+            </address>
+          </div>
+
         </div>
+
+        {/* Thin cyan accent line at bottom */}
+        <div className="mt-10 h-px bg-gradient-to-r from-cyan-500 via-cyan-300 to-transparent" />
+      </div>
+
+      {/* ── Email / Contact CTA ── */}
+     <div
+  ref={addRef}
+  id="contact"
+  className="relative z-10 px-6 lg:px-16 py-20 bg-white border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-10"
+>
+  <div>
+    <p className="font-mono text-xs tracking-widest uppercase text-cyan-500 mb-3">
+      Get In Touch
+    </p>
+
+    <h2 className="font-serif text-4xl font-extralight text-slate-900">
+      Ready to work <em className="italic text-cyan-500">together?</em>
+    </h2>
+
+    <a
+      href="mailto:Aman@khanlegalgroup.com"
+      className="mt-6 inline-flex items-center gap-3 px-8 py-3 bg-cyan-500 text-white text-xs font-semibold tracking-widest uppercase hover:bg-cyan-400 transition-colors"
+    >
+      <svg
+        className="w-4 h-4 stroke-white fill-none"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+      >
+        <rect x="2" y="4" width="20" height="16" rx="2" />
+        <polyline points="2,4 12,13 22,4" />
+      </svg>
+      Send an Email
+    </a>
+  </div>
+</div>
         <div className="font-mono text-base text-slate-400 tracking-wide">
           Aman@khanlegalgroup.com
         </div>
-      </div>
+      {/* </div> */}
 
     </div>
   );
