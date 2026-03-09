@@ -187,10 +187,7 @@ export default function AmanKhanBio() {
           </p>
          
         </div>
-      </div>
-
-      {/* ── Journey ── */}
-    
+      </div>    
 
       {/* ── Email / Contact ── */}
       <div ref={addRef} id="contact" className="relative z-10 px-6 lg:px-16 py-20 bg-white border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-10">
