@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="flex flex-col items-start space-y-4">
             <Image 
-              src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773180539/logo__1___1_-removebg-preview_hxhap2.png" 
+              src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773181463/logo_1_2_-fotor-bg-remover-202603113240_a0mdff.png" 
               alt="Nexus Logo" 
               width={192}
               height={96}

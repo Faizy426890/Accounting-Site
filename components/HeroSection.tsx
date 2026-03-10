@@ -63,7 +63,7 @@ export default function HeroSection() {
       <nav className="relative z-20 flex items-center justify-between px-4 py-4 sm:px-8 sm:py-6 lg:px-16">
         <div className="flex items-center gap-4">
           <img 
-            src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773180539/logo__1___1_-removebg-preview_hxhap2.png" 
+            src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773181463/logo_1_2_-fotor-bg-remover-202603113240_a0mdff.png" 
             alt="Nexus Logo" 
             className="h-16 w-auto sm:h-20 lg:h-24"
           />
@@ -174,7 +174,7 @@ export default function HeroSection() {
           {/* Header with Logo and Close */}
           <div className="flex items-center justify-between p-6 border-b border-white/10">
             <img 
-              src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773180539/logo__1___1_-removebg-preview_hxhap2.png" 
+              src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773181463/logo_1_2_-fotor-bg-remover-202603113240_a0mdff.png" 
               alt="Nexus Logo" 
               className="h-16 w-auto"
             />
