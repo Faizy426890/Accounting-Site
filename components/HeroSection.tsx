@@ -27,7 +27,6 @@ export default function HeroSection() {
     return () => clearInterval(interval);
   }, []);
 
-  // Close mobile menu when clicking outside
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -64,7 +63,7 @@ export default function HeroSection() {
       <nav className="relative z-20 flex items-center justify-between px-4 py-4 sm:px-8 sm:py-6 lg:px-16">
         <div className="flex items-center gap-4">
           <img 
-            src="https://res.cloudinary.com/diml90c1y/image/upload/v1769895122/logo_1_kk76ps.png" 
+            src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773180539/logo__1___1_-removebg-preview_hxhap2.png" 
             alt="Nexus Logo" 
             className="h-16 w-auto sm:h-20 lg:h-24"
           />
@@ -88,6 +87,11 @@ export default function HeroSection() {
             </Link>
           </li>
           <li>
+            <Link href="/personal-info" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
+              In-Network Attornies
+            </Link>
+          </li>
+          <li>
             <Link href="/contact" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
               Contact 
             </Link>
@@ -108,29 +112,27 @@ export default function HeroSection() {
           </div>
 
           {/* Login Button */}
-       <a
-  href="https://taxdome.com/easy-access"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center gap-2 rounded-lg bg-blue-100 px-5 py-3 font-semibold text-black shadow-md transition-all duration-200 hover:bg-blue-200 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
->
-  <svg
-    className="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
-    />
-  </svg>
-
-  Login
-</a>
-
+          
+            <a href="https://taxdome.com/easy-access"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg bg-blue-100 px-5 py-3 font-semibold text-black shadow-md transition-all duration-200 hover:bg-blue-200 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+          >
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+              />
+            </svg>
+            Login
+          </a>
         </div>
 
         {/* Mobile Hamburger/Close Button */}
@@ -140,12 +142,10 @@ export default function HeroSection() {
           aria-label="Toggle menu"
         >
           {isMobileMenuOpen ? (
-            // Close Icon (X)
             <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           ) : (
-            // Hamburger Icon
             <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -174,7 +174,7 @@ export default function HeroSection() {
           {/* Header with Logo and Close */}
           <div className="flex items-center justify-between p-6 border-b border-white/10">
             <img 
-              src="https://res.cloudinary.com/diml90c1y/image/upload/v1769895122/logo_1_kk76ps.png" 
+              src="https://res.cloudinary.com/daxjhteb5/image/upload/v1773180539/logo__1___1_-removebg-preview_hxhap2.png" 
               alt="Nexus Logo" 
               className="h-16 w-auto"
             />
@@ -230,6 +230,18 @@ export default function HeroSection() {
               </li>
               <li>
                 <Link
+                  href="/personal-info"
+                  className="flex items-center justify-between text-base font-semibold text-white py-4 px-5 rounded-xl transition-all hover:bg-gradient-to-r hover:from-cyan-500/20 hover:to-blue-500/20 hover:text-cyan-400 group"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <span>In-Network Attornies</span>
+                  <svg className="h-5 w-5 text-gray-400 group-hover:text-cyan-400 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="flex items-center justify-between text-base font-semibold text-white py-4 px-5 rounded-xl transition-all hover:bg-gradient-to-r hover:from-cyan-500/20 hover:to-blue-500/20 hover:text-cyan-400 group"
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -244,8 +256,8 @@ export default function HeroSection() {
 
             {/* Login Button */}
             <div className="mt-6 pt-6 border-t border-white/10">
-              <a
-                href="https://taxdome.com/easy-access"
+              
+                <a href="https://taxdome.com/easy-access"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-4 font-bold text-white shadow-lg transition-all hover:shadow-cyan-500/50 hover:scale-105"
