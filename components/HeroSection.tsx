@@ -88,7 +88,7 @@ export default function HeroSection() {
           </li>
           <li>
             <Link href="/personal-info" className="cursor-pointer text-base font-semibold transition-all hover:text-cyan-400 hover:scale-105">
-              In-Network Attornies
+              In-Network Attorneys
             </Link>
           </li>
           <li>
