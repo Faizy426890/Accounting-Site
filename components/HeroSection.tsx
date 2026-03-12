@@ -234,7 +234,7 @@ export default function HeroSection() {
                   className="flex items-center justify-between text-base font-semibold text-white py-4 px-5 rounded-xl transition-all hover:bg-gradient-to-r hover:from-cyan-500/20 hover:to-blue-500/20 hover:text-cyan-400 group"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  <span>In-Network Attornies</span>
+                  <span>In-Network Attorneys</span>
                   <svg className="h-5 w-5 text-gray-400 group-hover:text-cyan-400 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
